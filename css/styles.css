@@ -85,3 +85,21 @@ p {
 .app-paragraphs {
   background: none;
 }
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 40px;
+  }
+  h2 {
+    font-size: 30px;
+  }
+  .primary-link {
+    text-align: center;
+  }
+  .secondary-link {
+    text-align: center;
+  }
+  .contact-me-header {
+    font-size: 25px;
+  }
+}
